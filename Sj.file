@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#FAF5EC" />
+<title>Parvaz Daily</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<div class="app">
+  <header class="topbar">
+    <div class="brand">
+      <h1>Parvaz Daily</h1>
+      <span>پرواز روزانه</span>
+    </div>
+    <div class="topbar-date" id="topDate"></div>
+  </header>
+
+  <main id="view" class="view"></main>
+</div>
+
+<nav class="tabbar">
+  <div class="tabbar-inner">
+    <button class="tab" data-tab="home"><span class="tab-ico"></span><span>Home</span></button>
+    <button class="tab" data-tab="planner"><span class="tab-ico"></span><span>Planner</span></button>
+    <button class="tab" data-tab="mood"><span class="tab-ico"></span><span>Journal</span></button>
+    <button class="tab" data-tab="study"><span class="tab-ico"></span><span>Study</span></button>
+    <button class="tab" data-tab="more"><span class="tab-ico"></span><span>More</span></button>
+  </div>
+</nav>
+
+<script src="js/utils.js"></script>
+<script src="js/store.js"></script>
+<script src="js/sections/home.js"></script>
+<script src="js/sections/planner.js"></script>
+<script src="js/sections/mood.js"></script>
+<script src="js/sections/study.js"></script>
+<script src="js/sections/library.js"></script>
+<script src="js/sections/reviews.js"></script>
+<script src="js/sections/plants.js"></script>
+<script src="js/sections/habits.js"></script>
+<script src="js/sections/notes.js"></script>
+<script src="js/sections/calendar.js"></script>
+<script src="js/sections/more.js"></script>
+<script src="js/app.js"></script>
+<script>App.init();</script>
+</body>
+</html>
